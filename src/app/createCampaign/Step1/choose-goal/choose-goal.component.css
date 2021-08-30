@@ -1,0 +1,80 @@
+.main-container {
+    background-color: white;
+    margin-left: 60px;
+    margin-top: 16px;
+    min-width: 50vw;
+    height: auto;
+}
+
+.aside-container {
+    background-color: white;
+    margin-left: 60px;
+    margin-top: 16px;
+    height: auto;
+    width: auto;
+}
+
+.container-fluid {
+    background-color: #EBEBEB;
+    height: 100vh;
+    width: auto;
+    bottom: 0;
+}
+
+.title-campaign {
+    color: #008A48;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.label-subtitle-campaign {
+    color: #6F6F6F;
+    font-size: .8em;
+    font-weight: 400;
+}
+
+.position,
+.capture,
+.build-loyality {
+    font-size: 13px;
+    font-weight: 400;
+    max-width: 220px !important;
+}
+
+.btn-secondary {
+    background-color: #F2F2F2;
+    color: #6F6F6F;
+    border: none;
+    height: 200px;
+}
+
+.title-campaign-option {
+    font-size: 15px;
+    color: #6C6C6C;
+    font-weight: bold;
+    margin-bottom: 11px;
+}
+
+a.btn.save-out {
+    background-color: white !important;
+    color: #A8A8A8 !important;
+    max-width: 178px !important;
+    border: solid 0.5px #A8A8A8 !important;
+}
+
+a.btn.continue {
+    color: #FFFFFF !important;
+    background-color: #008A48 !important;
+    border: #008A48 !important;
+}
+
+.title-aside {
+    color: #008A48;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.content-aside {
+    color: #6F6F6F;
+    font-size: 13px;
+}

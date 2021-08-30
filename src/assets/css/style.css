@@ -1,0 +1,167 @@
+/* Styles register page */
+
+.nav-bluumer-desktop {
+    background: #F2F2F2;
+    color: #008A48;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.f-right {
+    float: right;
+    position: absolute;
+    right: 40px;
+    top: 5px;
+}
+
+.logo {
+    width: 140px;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.m-right {
+    margin-right: 1rem;
+}
+
+.img-steps {
+    width: 35%;
+    margin-top: 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.background-green {
+    background-color: #007A40 !important;
+}
+
+.background-gray-light {
+    background-color: #F5F5F5 !important;
+}
+
+.border-gray {
+    border-color: #A8A8A8 !important;
+}
+
+.border-gray-light {
+    border-color: #b7b5b5 !important;
+}
+
+.color-green {
+    color: #008A48 !important;
+}
+
+.color-gray {
+    color: #6F6F6F;
+}
+
+.color-white {
+    color: #fff !important;
+}
+
+.f-w100 {
+    font-weight: 100;
+}
+
+.f-w200 {
+    font-weight: 200;
+}
+
+.f-w300 {
+    font-weight: 300;
+}
+
+.f-w400 {
+    font-weight: 400;
+}
+
+.f-w500 {
+    font-weight: 500;
+}
+
+.f-w600 {
+    font-weight: 600;
+}
+
+.f-w700 {
+    font-weight: 700;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.display-none {
+    display: none;
+}
+
+.inputCodigo::-webkit-input-placeholder {
+    text-align: center;
+}
+
+.inputCodigo:-moz-placeholder {
+    /* Firefox 18- */
+    text-align: center;
+}
+
+.inputCodigo::-moz-placeholder {
+    /* Firefox 19+ */
+    text-align: center;
+}
+
+.inputCodigo:-ms-input-placeholder {
+    text-align: center;
+}
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.circulo-camera {
+    border: 1.5px solid #86D39B;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background-color: #e4f9e4;
+    position: absolute;
+    left: 44%;
+    top: -43%;
+    padding: 20px 14px 20px 18px;
+    transition: .7s;
+}
+
+.circulo-camera:hover {
+    transform: scale(1.1);
+}
+
+.position-relative {
+    position: relative;
+}
+
+.box-image {
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+@media (max-width: 768px) {
+    .circulo-camera {
+        border: 1.5px solid #86D39B;
+        border-radius: 100%;
+        width: 100px;
+        height: 100px;
+        background-color: #e4f9e4;
+        position: absolute;
+        left: 35%;
+        top: -43%;
+        padding: 20px 14px 20px 18px;
+        transition: .7s;
+    }
+    .img-steps {
+        width: 70%;
+        margin-top: 30px;
+    }
+}

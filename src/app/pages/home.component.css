@@ -1,0 +1,18 @@
+.nav-item {
+    height: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #777777;
+    border-right: solid 2px #F2F2F2;
+}
+
+.nav-link.active {
+    border-bottom: green 3px solid;
+}
+
+.container-fluid {
+    margin-top: 21px;
+    border-radius: 5px;
+    box-shadow: 5px #777777;
+}

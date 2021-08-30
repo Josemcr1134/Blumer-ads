@@ -1,0 +1,14 @@
+<div class="container-fluid">
+    <nav class="w-100 nav-justified  ">
+        <div class="nav nav-tabs d-flex  justifiy-content-between" id="nav-tab" role="tablist">
+            <a class="nav-item  nav-link" [routerLink]="['/Home/General']" routerLinkActive="active"><i class="fas fa-home mx-3"></i> General</a>
+            <a class="nav-item  nav-link" [routerLink]="['/Home/Campaign']" routerLinkActive="active"><i class="fas fa-folder-open mx-3"></i> Campañas</a>
+            <a class="nav-item  nav-link" [routerLink]="['/Home/TargetPoint']" routerLinkActive="active"> <img src="assets/img/target.svg" class="mx-3" width="16px" height="16px" alt=""> Público Objetivo</a>
+            <a class="nav-item  nav-link" [routerLink]="['/Home/advertisements']" routerLinkActive="active"><img src="assets/img/Recurso 2.svg" width="16px" height="16px" class="mx-3" alt=""> Anuncios</a>
+            <a class="nav-item  nav-link" [routerLink]="['/Home/MarketPlace']" routerLinkActive="active"><i class="fas fa-shopping-cart mx-3"></i>Tienda en línea</a>
+        </div>
+    </nav>
+
+</div>
+
+<router-outlet></router-outlet>

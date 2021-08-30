@@ -1,0 +1,61 @@
+.contenedor {
+    position: fixed;
+    width: 100%;
+}
+
+.nav-scroller {
+    height: 85px;
+}
+
+.btn {
+    height: 44px;
+    background-color: #008A48;
+    border-color: #008A48;
+}
+
+.btn-buy-interactions {
+    height: 44px;
+    background-color: #EBEBEB;
+    border-color: #EBEBEB;
+    color: #008A48;
+}
+
+.form-control {
+    height: 44px;
+    width: 108px;
+}
+
+.col-form-label {
+    padding-top: 0;
+}
+
+label {
+    color: #008A48;
+    font-weight: 400;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+    background-color: transparent !important;
+    color: #008A48;
+}
+
+.nav-link {
+    padding: 0;
+    padding-top: .3rem;
+}
+
+.scroller-profile-id {
+    color: #b9b9b9;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.scroller-profile-name {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.shadow-lg {
+    box-shadow: 0px 3px 6px #00000029 !important;
+}

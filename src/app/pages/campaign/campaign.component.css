@@ -1,0 +1,85 @@
+.btn-search {
+    background-color: #F2F2F2;
+    border-color: #F2F2F2;
+    color: #4E4E4E;
+    height: 41px;
+    width: 160px;
+    font-size: 15px;
+}
+
+.form-control-feedback {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+
+.form-group .form-control {
+    padding-left: 2.375rem;
+    height: 41px;
+    width: 216px;
+}
+
+.form-group .form-control-icon {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+th,
+td {
+    height: 97px;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    vertical-align: middle !important;
+}
+
+.fas {
+    color: #007A40;
+}
+
+.title-campaign {
+    color: #007A40;
+    font-size: 15px;
+}
+
+.subtitle-campaign {
+    color: #999999;
+    font-size: 12px;
+}
+
+.campaign-status-active:active,
+.campaign-status-active:focus {
+    color: #007A40;
+}
+
+.campaign-status-inactive:active,
+.campaign-status-inactive:focus {
+    color: #EA6C6C;
+}
+
+.campaign-status-revision:active,
+.campaign-status-revision:focus {
+    color: #00AEEE;
+}
+
+span {
+    color: #999999;
+}
+
+.btn-dropdown {
+    background-color: #F2F2F2;
+    border-color: #F2F2F2;
+    color: #4E4E4E;
+}

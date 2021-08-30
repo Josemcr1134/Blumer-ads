@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    font-family: 'Rubik', sans-serif !important;
+    overflow-x: hidden !important;
+}
+
+.contenedor {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.color-green {
+    color: #008A48 !important;
+}

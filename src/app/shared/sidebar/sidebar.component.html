@@ -1,0 +1,51 @@
+<div class=" sidebarflex-shrink-0 p-3 bg-white" style="width: 280px; height: 100vh;">
+    <ul class="list-unstyled ps-0">
+        <li class="mb-1 step-one">
+            <a [routerLink]="['/CreateCampaign/ChooseGoal']" routerLinkActive="active"></a>
+            <button class="btn btn-toggle align-items-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
+          <span class="sidebar-step text-start d-flex mb-1">Paso 1</span>
+          <h6  class="sidebar-name-step text-start">Crear nueva campaña</h6>
+        </button>
+            <div class="collapse" id="home-collapse" style="">
+                <ul class="btn-toggle-nav step-one-list fw-normal py-1 small animate__animated animate__fadeIn">
+                    <li><a [routerLink]="['/CreateCampaign/ChooseGoal']" routerLinkActive="active" class="nav-item rounded">Escoge tu objetivo</a></li>
+                    <li><a [routerLink]="['/CreateCampaign/Public']" routerLinkActive="active" class="nav-item rounded">Público</a></li>
+                    <li><a [routerLink]="['/CreateCampaign/AdFormat']" routerLinkActive="active" class="nav-item rounded">Formato del anuncio</a></li>
+                    <li><a [routerLink]="['/CreateCampaign/Schedule']" routerLinkActive="active" class="nav-item rounded">Horarios</a></li>
+                    <li><a [routerLink]="['/CreateCampaign/Budget']" routerLinkActive="active" class="nav-item rounded">Presupuestos</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="border-top my-3"></li>
+
+        <li class="mb-1">
+            <a [routerLink]="['/CreateCampaign/AdContent']" routerLinkActive="active">
+                <button class="btn btn-toggle align-items-start rounded " aria-expanded="false">
+             <span  class="sidebar-step text-start d-flex mb-1">Paso 2</span>
+             <h6 class="sidebar-name-step text-start">Contenido del Anuncio</h6>
+            </button>
+            </a>
+        </li>
+        <li class="border-top my-3 "></li>
+
+        <li class="mb-1">
+            <a [routerLink]="['/CreateCampaign/AdPosting']" routerLinkActive="active">
+                <button class="btn btn-toggle align-items-start rounded  " aria-expanded="false">
+                <span  class="sidebar-step text-start d-flex mb-1">Paso 3</span>
+                <h6 class="sidebar-name-step text-start">Publicacion del Anuncio</h6>
+                
+        </button>
+            </a>
+        </li>
+        <li class="border-top my-3"></li>
+        <li class="mb-1  text-center">
+            <a [routerLink]="['/Home/General']" routerLinkActive="router-link-active">
+
+                <button class="btn btn-toggle btn-back-account align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+                    <i class="fas fa-long-arrow-alt-left px-2"></i>
+                    Ir a la cuenta 
+            </button>
+            </a>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,64 @@
+<div class="container-fluid h-100">
+    <div class="d-flex justify-content-between ">
+        <div class="main-container p-4">
+            <div class="header-container">
+                <div class="title-campaign px-4 pt-4">
+                    <h5>Escoge el objetivo de tu campaña</h5>
+                </div>
+                <div class="label-subtitle-campaign px-4 ">
+                    <p>Para comenzar selecciona el objetivo que mejor se adapte</p>
+                </div>
+                <div class="select-campaign px-4 pb-4">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Agregar campaña existente</option>
+                        <option value="1">Colgate plus</option>
+                        <option value="2">Cepillos de dientes</option>
+                        <option value="3">Tennis jordan</option>
+                      </select>
+                </div>
+            </div>
+            <div class="campaign-goal-container  text-wrap mx-3 ">
+                <div class="btn-group d-flex justify-content-between btn-group-toggle px-2" data-toggle="buttons">
+                    <div class="position mr-1">
+                        <h5 class="title-campaign-option">Posicionar</h5>
+                        <label class="btn btn-secondary  align-middle  ">
+                            <input type="radio" name="options" id="option1" autocomplete="off" checked> 
+                            Si tu estrategia comercial esta enfocada en generar recordación de tu marca,
+                             esta opción es para ti, déjanos guiarte para cumplirla.
+                          </label>
+                    </div>
+                    <div class="capture mx-1">
+                        <h5 class="title-campaign-option">Capturar</h5>
+                        <label class="btn btn-secondary  align-middle ">
+                            <input type="radio" name="options" id="option2" autocomplete="off"> 
+                            ¿Estas buscando nuevos clientes? Con este objetivo ampliaras tu red de posibles clientes y
+                             lograrás aumentar tus ventas, sigue nuestros consejos.
+                          </label>
+                    </div>
+                    <div class="build-loyality ml-1">
+                        <h5 class="title-campaign-option">Fidelizar</h5>
+                        <label class="btn btn-secondary  align-middle ">
+                            <input type="radio" name="options" id="option3" autocomplete="off"> 
+                            Si lo que deseas es transmitir un mensaje a las personas que ya son tu clientes,
+                             te guiaremos para que sea efectiva tu comunicación digital.
+                          </label>
+                    </div>
+
+                </div>
+            </div>
+            <div class="btn-container text-end my-2">
+                <a [routerLink]="['/Home/General']" class="btn btn-primary save-out mx-2 active" role="button" aria-pressed="true">Guardar y salir </a>
+                <a [routerLink]="['/CreateCampaign/Public']" class="btn btn-primary mx-3 continue active" role="button" aria-pressed="true">Siguiente</a>
+            </div>
+        </div>
+        <aside class="aside-container p-4 ">
+            <div class="title-aside ">
+                <h5>Consejo</h5>
+            </div>
+            <p class="content-aside text-wrap">
+                Escoger un objetivo te ayudará a <br> definir el enfoque de tu campaña.
+                <br> Selecciona uno y te guiaremos para <br> que optimices tu contenido.
+            </p>
+        </aside>
+    </div>
+</div>

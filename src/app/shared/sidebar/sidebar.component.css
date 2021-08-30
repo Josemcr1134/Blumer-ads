@@ -1,0 +1,37 @@
+.animate__animated.animate__fadeIn {
+    --animate-duration: 2s;
+}
+
+.sidebar-step {
+    color: #9F9F9F;
+    font-size: 13px;
+}
+
+.btn.focus,
+.btn:focus {
+    box-shadow: none;
+}
+
+.step-one-list {
+    width: 186px;
+    color: #9F9F9F;
+}
+
+li,
+.nav-item {
+    margin-bottom: 1rem;
+    color: #9F9F9F;
+}
+
+.btn-back-account {
+    border-color: #F2F2F2;
+    background-color: #F2F2F2;
+    color: #00AEEE;
+    height: 44px;
+    width: 178px;
+}
+
+.active {
+    color: #008A48;
+    font-weight: bold;
+}
