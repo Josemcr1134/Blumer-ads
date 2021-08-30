@@ -1,1 +1,137 @@
-<p>public works!</p>
+<div class="container-fluid h-100">
+    <div class="d-flex  ">
+        <div class="main-container">
+            <div class="card ">
+                <div class="card-body ">
+                    <blockquote class="blockquote mb-0">
+                        <div class="d-flex justify-content-between">
+                            <p class="objetive-title">Tu objetivo es <b>Posicionar</b></p>
+                            <a href="#" class="change-link">Cambiar</a>
+                        </div>
+                        <footer class="objetive-subtitle blockquote-footer">Con este objetivo lograrás recordación de tu marca en los usuarios.</footer>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="card my-2 px-4">
+                <div class="header-container">
+                    <div class="title-campaign  pt-4">
+                        <h5>Tu objetivo es Posicionar</h5>
+                    </div>
+                    <div class="label-subtitle-campaign  ">
+                        <p>Escoge a tu público objetivo</p>
+                    </div>
+                    <div class="select-campaign  ">
+                        <select class="form-select" aria-label="Default select example">
+                                <option selected>Escoger público guardado</option>
+                                <option value="1">Chicos - campaña 1</option>
+                                <option value="2">Publico mayor</option>
+                                <option value="3">Comunidad LGTBIQ</option>
+                              </select>
+                    </div>
+                    <hr style="border-top: 0.5px;">
+                    <div class="place-container py-2">
+                        <div class="mb-3  ">
+                            <div class="select-place w-100 d-flex mb-3">
+                                <label class="mr-5 form-label align-middle pt-1">Lugares</label>
+                                <input class="form-control w-50" list="datalistOptions" id="exampleDataList" placeholder="Escoger país o ciudades">
+                                <datalist id="datalistOptions">
+                                  <option value="San Francisco">
+                                  <option value="New York">
+                                  <option value="Seattle">
+                                  <option value="Los Angeles">
+                                  <option value="Chicago">
+                                </datalist>
+                            </div>
+                            <div class="place-selected d-flex">
+                                <span class="badge bg-secondary">Barranquilla</span>
+                                <span class="badge bg-secondary">Bogota</span>
+                                <span class="badge bg-secondary">Medellin</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <hr style="border-top: 0.5px;">
+                    <div class="age-container d-flex py-2">
+                        <label class="mr-5 form-label align-middle pt-1">Edades</label>
+                        <select class="form-select age-select form-select-lg mx-3 " aria-label=".form-select-lg example">
+                            <option selected value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                          </select>
+                        <select class="form-select age-select form-select-lg mx-3 " aria-label=".form-select-lg example">
+                            <option selected value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                          </select>
+
+                    </div>
+                    <hr style="border-top: 0.5px;">
+                    <div class="gender-container py-2">
+                        <div class="btn-group d-flex  btn-group-toggle" data-toggle="buttons">
+                            <label class="mr-5 form-label align-middle pt-1">Generos</label>
+                            <div class=" mx-1">
+                                <button id="button" class="btn btn-secondary  align-middle  ">
+                                    <input class="radio-button"  type="radio" name="genders" value="All" id="option1" autocomplete="off" > 
+                                   Todos
+                                  </button>
+                            </div>
+                            <div class=" mx-1">
+                                <button class="btn btn-secondary  align-middle ">
+                                    <input class="radio-button" type="radio" name="genders" value="Hombres" id="option2" autocomplete="off"> 
+                                    Hombres
+                                  </button>
+                            </div>
+                            <div class=" mx-1">
+                                <button class="btn btn-secondary  align-middle ">
+                                    <input class="radio-button" type="radio" name="genders" value="Mujeres" id="option3" autocomplete="off"> 
+                                    Mujeres
+                                  </button>
+                            </div>
+                            <div class=" mx-1">
+                                <button class="btn btn-secondary  align-middle ">
+                                    <input class="radio-button" type="radio" name="genders" value="Others" id="option3" autocomplete="off"> 
+                                    Otros
+                                  </button>
+                            </div>
+                        </div>
+                    </div>
+                    <hr style="border-top: 0.5px;">
+                    <div class="specific-data">
+                        <div class="select-specific-data w-100 d-flex mb-3">
+                            <label class=" form-label align-middle pt-1">Datos <br> Específicos</label>
+                            <div class="place-selected d-flex">
+                                <span class="badge bg-secondary">Tecnología</span>
+                                <span class="badge bg-secondary">Salud</span>
+                                <span class="badge bg-secondary">1-5 empleados</span>
+                                <span class="badge bg-secondary">Entre 4 años</span>
+                            </div>
+                        </div>
+                        <table class="table table-bordered">
+
+                            <tbody>
+                                <tr>
+                                    <th class="w-50">
+                                        <a [routerLink]="['/CreateCampaign/Public/BusinnesOption']" routerLinkActive="active" class="list-group-item list-group-item-action h-100  ">Empresas</a>
+                                    </th>
+                                    <td class="route" rowspan="2">
+                                        <router-outlet></router-outlet>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <a [routerLink]="['/CreateCampaign/Public/UsersOption']" routerLinkActive="active" class="list-group-item list-group-item-action h-100">Usuarios</a>
+                                    </th>
+                                </tr>
+                            </tbody>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <app-aside class="aside-container  text-wrap"></app-aside>
+    </div>
+</div>

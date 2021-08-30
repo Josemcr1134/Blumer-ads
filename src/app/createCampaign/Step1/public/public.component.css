@@ -1,0 +1,100 @@
+.container-fluid {
+    background-color: #EBEBEB;
+    height: 100vh;
+    width: auto;
+    bottom: 0;
+}
+
+.main-container {
+    margin-left: 60px;
+    margin-top: 16px;
+    min-width: 50vw;
+    height: auto;
+}
+
+.aside-container {
+    background-color: white;
+    margin-left: 60px;
+    margin-top: 16px;
+    height: auto;
+    width: auto;
+}
+
+.objetive-title {
+    color: #008A48;
+    font-size: .8em;
+}
+
+.objetive-subtitle {
+    font-size: .7em;
+}
+
+.change-link {
+    text-decoration: underline;
+    font-size: 13px;
+    color: #00AEEE;
+}
+
+.title-campaign {
+    color: #008A48;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.label-subtitle-campaign {
+    color: #6F6F6F;
+    font-size: .8em;
+    font-weight: 400;
+}
+
+.form-label {
+    margin-right: 50px;
+    color: #6F6F6F;
+    font-size: .8em;
+    font-weight: 400;
+}
+
+.bg-secondary {
+    background-color: #F2F2F2 !important;
+    color: #6F6F6F;
+    height: 26px;
+    width: auto;
+    vertical-align: middle;
+    margin-right: 6px;
+    margin-left: 6px;
+    padding: 5px;
+}
+
+.age-select {
+    width: 78px;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: #6F6F6F;
+    border-color: #6F6F6F;
+}
+
+button:focus,
+button:active {
+    background-color: #008A48 !important;
+    border-color: #9c9e9d !important;
+    color: white;
+    box-shadow: none;
+}
+
+th {
+    padding: 0;
+}
+
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #008A48;
+    border-color: #008A48;
+}
+
+.route {
+    height: 200px;
+    overflow-y: scroll;
+}

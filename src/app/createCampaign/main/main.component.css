@@ -4,3 +4,11 @@
     left: 0;
     bottom: 0;
 }
+
+.contenedor-main {
+    height: 100vh;
+    background-color: #EBEBEB;
+    right: 0;
+    left: 0;
+    position: absolute;
+}

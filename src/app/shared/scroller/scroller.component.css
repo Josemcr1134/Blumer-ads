@@ -1,6 +1,7 @@
 .contenedor {
     position: fixed;
     width: 100%;
+    top: auto;
 }
 
 .nav-scroller {

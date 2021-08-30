@@ -5,6 +5,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ScrollerComponent } from './scroller/scroller.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { RouterModule } from '@angular/router';
+import { AsideComponent } from './aside/aside.component';
 
 
 
@@ -13,7 +14,8 @@ import { RouterModule } from '@angular/router';
     TopBarComponent,
     FooterComponent,
     ScrollerComponent,
-    SidebarComponent
+    SidebarComponent,
+    AsideComponent
   ],
   imports: [
     CommonModule,
@@ -22,7 +24,8 @@ import { RouterModule } from '@angular/router';
     TopBarComponent,
     FooterComponent,
     ScrollerComponent,
-    SidebarComponent
+    SidebarComponent,
+    AsideComponent
   ]
 })
 export class SharedModule { }

@@ -7,6 +7,9 @@ import { AdvertisementsContentComponent } from './Step2/advertisements-content/a
 import { ScheduleComponent } from './Step1/schedule/schedule.component';
 import { BudgetComponent } from './Step1/budget/budget.component';
 import { AdPostingComponent } from './Step3/ad-posting/ad-posting.component';
+import { ComponentsRoutingModule } from '../components/components.routes';
+import { BusinessComponent } from '../components/createCampaign/business/business.component';
+import { UserComponent } from '../components/createCampaign/user/user.component';
 
 
 
@@ -15,7 +18,11 @@ const routes: Routes = [
      component:MainComponent,
     children:[
         {path:'ChooseGoal', component:ChooseGoalComponent},
-        {path:'Public', component:PublicComponent},
+        {path:'Public', component:PublicComponent,
+            children:[
+                {path:'BusinnesOption', component: BusinessComponent},
+                {path:'UsersOption', component: UserComponent}
+            ]},
         {path:'AdFormat', component:AdvertisementsContentComponent},
         {path:'Schedule', component:ScheduleComponent},
         {path:'Budget', component:BudgetComponent},
@@ -26,7 +33,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-    imports: [RouterModule.forChild(routes)],
+    imports: [RouterModule.forChild(routes), ComponentsRoutingModule],
     exports: [RouterModule]
 })
 export class CreateCampaignRoutingModule {}

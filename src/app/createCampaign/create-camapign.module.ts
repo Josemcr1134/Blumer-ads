@@ -10,6 +10,7 @@ import { BudgetComponent } from './Step1/budget/budget.component';
 import { AdvertisementsContentComponent } from './Step2/advertisements-content/advertisements-content.component';
 import { AdPostingComponent } from './Step3/ad-posting/ad-posting.component';
 import { RouterModule } from '@angular/router';
+import { ComponentsModule } from '../components/components.module';
 
 
 
@@ -27,7 +28,8 @@ import { RouterModule } from '@angular/router';
   imports: [
     CommonModule,
     SharedModule,
-    RouterModule
+    RouterModule,
+    ComponentsModule
   ]
 })
 export class CreateCampaignModule { }

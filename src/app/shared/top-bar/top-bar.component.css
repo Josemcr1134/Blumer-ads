@@ -1,4 +1,5 @@
-header {
+header,
+.container-fluid {
     position: sticky;
     left: 0;
     right: 0;
@@ -6,6 +7,10 @@ header {
     width: 100%;
     background: #EBEBEB;
     padding-top: 5px;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
 
 .bg {
