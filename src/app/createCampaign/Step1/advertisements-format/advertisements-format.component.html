@@ -1,1 +1,137 @@
-<p>advertisements-format works!</p>
+<div class="container-fluid h-100">
+    <div class="d-flex  " style="width: 75vw;">
+        <div class="main-container">
+            <div class="card mb-2">
+                <div class="card-body  ">
+                    <blockquote class="blockquote mb-0">
+                        <div class="d-flex justify-content-between">
+                            <p class="objetive-title">Tu objetivo es <b>Posicionar</b></p>
+                            <a [routerLink]="['/CreateCampaign/ChooseGoal']" routerLinkActive="router-link-active" class="change-link">Cambiar</a>
+                        </div>
+                        <footer class="objetive-subtitle blockquote-footer">Con este objetivo lograrás recordación de tu marca en los usuarios.</footer>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="card mb-2">
+                <div class="card-body ">
+                    <blockquote class="blockquote mb-0">
+                        <div class="d-flex justify-content-between">
+                            <p class="objetive-title">Tu público objetivo es <b>Nombre del publico guardado</b></p>
+                            <a [routerLink]="['/CreateCampaign/Public']" class="change-link">Cambiar</a>
+                        </div>
+                        <footer class="objetive-subtitle blockquote-footer">Con esta seleccion abarcarás unas 180.000</footer>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="card my-2 px-4">
+                <div class="header-container">
+                    <div class="title-campaign  pt-4">
+                        <h5>Formato de anuncio</h5>
+                    </div>
+                </div>
+                <div class="main-format-container">
+                    <div class="btn-group row text-center btn-group-toggle p-2" data-toggle="buttons">
+                        <div class="Image  col-lg-2  col-md-4 m-1 ">
+                            <div class="card format-card  align-middle">
+                                <div class="card-body pt-3">
+                                    <input type="radio" name="options" id="option1" autocomplete="off">
+                                    <img src="assets/img/image.png" class="mx-2" height="40" width="37" alt="">
+                                    <br>
+                                    <span class="format-name">Una imagen</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Album m-1  col-lg-2 col-md-4 col-sm-6">
+                            <div class="card format-card  align-middle">
+
+                                <div class="card-body pt-3 text-center">
+                                    <input type="radio" name="options" id="option1" autocomplete="off">
+
+                                    <img src="assets/img/album.svg" class="mx-2" height="40" width="37" alt="">
+                                    <br>
+                                    <span class="format-name text-center">Album</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Video m-1  col-lg-2 col-md-4 col-sm-6">
+                            <div class="card format-card  align-middle">
+
+                                <div class="card-body  text-center pt-3">
+                                    <input type="radio" name="options" id="option1" autocomplete="off">
+                                    <img src="assets/img/video.png" class="mx-2" height="40" width="37" alt="">
+                                    <br>
+                                    <span class="format-name text-center">Video</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Trafic m-1  col-lg-2 col-md-4 col-sm-6">
+                            <div class="card format-card  align-middle">
+
+                                <div class="card-body  text-center pt-3">
+                                    <input type="radio" name="options" id="option1" autocomplete="off">
+                                    <img src="assets/img/trafic.png" class="mx-2" height="40" width="37" alt="">
+                                    <br>
+                                    <span class="format-name text-center">Tráfico</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Survey m-1  col-lg-2 col-md-4 col-sm-6">
+                            <div class="card format-card  align-middle">
+
+                                <div class="card-body  text-center pt-3">
+                                    <input type="radio" name="options" id="option1" autocomplete="off">
+                                    <img src="assets/img/survey.png" class="mx-2" height="40" width="37" alt="">
+                                    <br>
+                                    <span class="format-name text-center">Encuesta</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Sell m-1  col-lg-2 col-md-4 col-sm-6">
+                            <div class="card format-card  align-middle">
+
+                                <div class="card-body  text-center pt-3">
+                                    <input type="radio" name="options" id="option1" autocomplete="off">
+                                    <img src="assets/img/sell.png" class="mx-2" height="40" width="37" alt="">
+                                    <br>
+                                    <span class="format-name text-center">Vender</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Follow m-1  col-lg-2 col-md-4 col-sm-6">
+                            <div class="card format-card  align-middle">
+
+                                <div class="card-body  text-center pt-3">
+                                    <input type="radio" name="options" id="option1" autocomplete="off">
+                                    <img src="assets/img/survey.png" class="mx-2" height="40" width="37" alt="">
+                                    <br>
+                                    <span class="format-name text-center">Seguir</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Share m-1  col-lg-2 col-md-4 col-sm-6">
+                            <div class="card format-card  align-middle">
+
+                                <div class="card-body  text-center pt-3">
+                                    <input type="radio" name="options" id="option1" autocomplete="off">
+                                    <img src="assets/img/survey.png" class="mx-2" height="40" width="37" alt="">
+                                    <br>
+                                    <span class="format-name text-center">Compartir</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="btn-container text-end my-2">
+                    <a [routerLink]="['/Home/General']" class="btn btn-primary save-out mx-2 active" role="button" aria-pressed="true">Guardar y salir </a>
+                    <a [routerLink]="['/CreateCampaign/Schedule']" class="btn btn-primary mx-4 continue active" role="button" aria-pressed="true">Siguiente</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="aside-container">
+            <app-aside></app-aside>
+        </div>
+
+    </div>
+</div>

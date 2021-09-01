@@ -1,0 +1,14 @@
+.pleasures-list {
+    width: 50rem;
+    overflow-x: hidden;
+}
+
+.pleasure-item {
+    height: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.btn-secondary {
+    height: 100%;
+}

@@ -1,0 +1,69 @@
+.container-fluid {
+    background-color: #EBEBEB;
+    height: auto;
+    width: auto;
+    bottom: 0;
+}
+
+.main-container {
+    margin-left: 60px;
+    margin-top: 16px;
+    min-width: 50vw;
+    height: auto;
+}
+
+.aside-container {
+    margin-left: 60px;
+    margin-top: 16px;
+    height: auto;
+    width: auto;
+}
+
+.objetive-title {
+    color: #008A48;
+    font-size: .8em;
+}
+
+.objetive-subtitle {
+    font-size: .7em;
+}
+
+.change-link {
+    text-decoration: underline;
+    font-size: 13px;
+    color: #00AEEE;
+}
+
+.title-campaign {
+    color: #008A48;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.bg-secondary {
+    background-color: #F2F2F2 !important;
+    color: #6F6F6F;
+    height: 26px;
+    width: auto;
+    vertical-align: middle;
+    margin-right: 6px;
+    margin-left: 6px;
+    padding: 5px;
+}
+
+.date-select {
+    width: 78px;
+}
+
+a.btn.save-out {
+    background-color: white !important;
+    color: #A8A8A8 !important;
+    max-width: 178px !important;
+    border: solid 0.5px #A8A8A8 !important;
+}
+
+a.btn.continue {
+    color: #FFFFFF !important;
+    background-color: #008A48 !important;
+    border: #008A48 !important;
+}

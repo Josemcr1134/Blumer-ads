@@ -1,1 +1,86 @@
-<p>budget works!</p>
+<div class="container-fluid h-100">
+    <div class="d-flex  ">
+        <div class="main-container">
+            <div class="card mb-2">
+                <div class="card-body  ">
+                    <blockquote class="blockquote mb-0">
+                        <div class="d-flex justify-content-between">
+                            <p class="objetive-title">Tu objetivo es <b>Posicionar</b></p>
+                            <a [routerLink]="['/CreateCampaign/ChooseGoal']" routerLinkActive="router-link-active" class="change-link">Cambiar</a>
+                        </div>
+                        <footer class="objetive-subtitle blockquote-footer">Con este objetivo lograrás recordación de tu marca en los usuarios.</footer>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="card mb-2">
+                <div class="card-body ">
+                    <blockquote class="blockquote mb-0">
+                        <div class="d-flex justify-content-between">
+                            <p class="objetive-title">Tu público objetivo es <b>Nombre del publico guardado</b></p>
+                            <a [routerLink]="['/CreateCampaign/Public']" class="change-link">Cambiar</a>
+                        </div>
+                        <footer class="objetive-subtitle blockquote-footer">Con esta seleccion abarcarás unas 180.000</footer>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="card mb-2">
+                <div class="card-body ">
+                    <blockquote class="blockquote mb-0">
+                        <div class="d-flex justify-content-between">
+                            <p class="objetive-title">Formato de anuncio</p>
+                            <a [routerLink]="['/CreateCampaign/Schedule']" class="change-link">Cambiar</a>
+                        </div>
+                        <footer class="objetive-subtitle blockquote-footer">Haz seleccionado format de una <b>Tipo de anuncio</b></footer>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="card mb-2">
+                <div class="card-body ">
+                    <blockquote class="blockquote mb-0">
+                        <div class="d-flex justify-content-between">
+                            <p class="objetive-title">Horario de publicación</p>
+                            <a [routerLink]="['/CreateCampaign/AdFormat']" class="change-link">Cambiar</a>
+                        </div>
+                        <footer class="objetive-subtitle blockquote-footer">Haz seleccionado formato de lunes a viernes entre 7:00 y 14:00</footer>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="card my-2 px-4">
+                <div class="header-container">
+                    <div class="title-campaign  pt-4">
+                        <h5>Presupuesto</h5>
+                    </div>
+
+                    <hr style="border-top: 0.5px;">
+                    <div class="date-container  py-2">
+                        <div class="mb-3 row">
+                            <label for="inputInteractions" class="col-sm-2 col-form-label">Interacciones</label>
+                            <div class="col-sm-10 col-md-6 col-lg-4">
+                                <input type="number" class="form-control" id="InteractionsInput" min="0" placeholder="Interacciones">
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label for="inputPoints" class="col-sm-2 col-form-label">Puntos</label>
+                            <div class="col-sm-10 col-md-6 col-lg-4">
+                                <input type="number" class="form-control" id="PointInput" min="0" placeholder="Puntos">
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label for="inputScope" class="col-sm-2 col-form-label">Alcance</label>
+                            <div class="col-sm-10 col-md-6 col-lg-4">
+                                <input type="number" disabled class="form-control" id="ScopeInput" placeholder="Alcance">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="btn-container text-end my-2">
+                        <a [routerLink]="['/Home/General']" class="btn btn-primary save-out mx-2 active" role="button" aria-pressed="true">Guardar y salir </a>
+                        <a [routerLink]="['/CreateCampaign/AdContent']" class="btn btn-primary mx-4 continue active" role="button" aria-pressed="true">Siguiente</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <app-aside class="aside-container"></app-aside>
+    </div>
+</div>

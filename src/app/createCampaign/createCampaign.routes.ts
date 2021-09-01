@@ -10,6 +10,7 @@ import { AdPostingComponent } from './Step3/ad-posting/ad-posting.component';
 import { ComponentsRoutingModule } from '../components/components.routes';
 import { BusinessComponent } from '../components/createCampaign/business/business.component';
 import { UserComponent } from '../components/createCampaign/user/user.component';
+import { AdvertisementsFormatComponent } from './Step1/advertisements-format/advertisements-format.component';
 
 
 
@@ -23,7 +24,7 @@ const routes: Routes = [
                 {path:'BusinnesOption', component: BusinessComponent},
                 {path:'UsersOption', component: UserComponent}
             ]},
-        {path:'AdFormat', component:AdvertisementsContentComponent},
+        {path:'AdFormat', component:AdvertisementsFormatComponent},
         {path:'Schedule', component:ScheduleComponent},
         {path:'Budget', component:BudgetComponent},
         {path:'AdContent', component: AdvertisementsContentComponent},

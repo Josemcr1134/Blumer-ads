@@ -1,0 +1,23 @@
+.card-body {
+    padding: 1rem !important;
+}
+
+h5 {
+    font-size: 1em;
+    color: #008A48;
+}
+
+p {
+    font-size: .8em;
+    color: #4D4D4D;
+}
+
+.specific-data-value {
+    font-size: 1em;
+    color: #9F9F9F;
+}
+
+.basic-segmentation-value {
+    color: #9F9F9F;
+    font-size: 1em;
+}
