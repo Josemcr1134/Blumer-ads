@@ -9,7 +9,7 @@
                     <p>Para comenzar selecciona el objetivo que mejor se adapte</p>
                 </div>
                 <div class="select-campaign px-4 pb-4">
-                    <select class="form-select" aria-label="Default select example">
+                    <select class="form-control" aria-label="Default select example">
                         <option selected>Agregar campaña existente</option>
                         <option value="1">Colgate plus</option>
                         <option value="2">Cepillos de dientes</option>
@@ -46,7 +46,7 @@
 
                 </div>
             </div>
-            <div class="btn-container text-end my-2">
+            <div class="btn-container d-flex text-end my-2 justify-content-end">
                 <a [routerLink]="['/Home/General']" class="btn btn-primary save-out mx-2 active" role="button" aria-pressed="true">Guardar y salir </a>
                 <a [routerLink]="['/CreateCampaign/Public']" class="btn btn-primary mx-4 continue active" role="button" aria-pressed="true">Siguiente</a>
             </div>

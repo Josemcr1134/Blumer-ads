@@ -2,11 +2,11 @@
     <ul class="list-unstyled ps-0">
         <li class="mb-1 step-one">
             <a [routerLink]="['/CreateCampaign/ChooseGoal']" routerLinkActive="active"></a>
-            <button class="btn btn-toggle align-items-start rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
+            <button class="btn btn-toggle align-items-start rounded collapsed" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
           <span class="sidebar-step text-start d-flex mb-1">Paso 1</span>
           <h6  class="sidebar-name-step text-start">Crear nueva campaña</h6>
         </button>
-            <div class="collapse" id="home-collapse" style="">
+            <div class="collapse" id="collapseExample" style="">
                 <ul class="btn-toggle-nav step-one-list fw-normal py-1 small animate__animated animate__fadeIn">
                     <li><a [routerLink]="['/CreateCampaign/ChooseGoal']" routerLinkActive="active" class="nav-item rounded">Escoge tu objetivo</a></li>
                     <li><a [routerLink]="['/CreateCampaign/Public']" routerLinkActive="active" class="nav-item rounded">Público</a></li>

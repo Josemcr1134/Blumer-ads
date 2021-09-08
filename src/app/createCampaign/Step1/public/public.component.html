@@ -19,14 +19,14 @@
                     </div>
 
                     <div class="select-campaign  ">
-                        <select class="form-select" aria-label="Default select example">
+                        <select class="form-control" aria-label="Default select example">
                                 <option selected>Escoger público guardado</option>
                                 <option value="1">Chicos - campaña 1</option>
                                 <option value="2">Publico mayor</option>
                                 <option value="3">Comunidad LGTBIQ</option>
                               </select>
                     </div>
-                    <hr style="border-top: 0.5px;">
+                    <hr>
                     <div class="place-container py-2">
                         <div class="mb-3  ">
                             <div class="select-place w-100 d-flex mb-3">
@@ -48,7 +48,7 @@
 
                         </div>
                     </div>
-                    <hr style="border-top: 0.5px;">
+                    <hr>
                     <div class="age-container d-flex py-2">
                         <label class="mr-5 form-label align-middle pt-1">Edades</label>
                         <select class="form-select age-select form-select-lg mx-3 " aria-label=".form-select-lg example">
@@ -57,13 +57,13 @@
                             <option value="20">20</option>
                           </select>
                         <select class="form-select age-select form-select-lg mx-3 " aria-label=".form-select-lg example">
-                            <option selected value="18">18</option>
-                            <option value="19">19</option>
-                            <option value="20">20</option>
+                            <option selected value="18">65</option>
+                            <option value="19">64</option>
+                            <option value="20">63</option>
                           </select>
 
                     </div>
-                    <hr style="border-top: 0.5px;">
+                    <hr>
                     <div class="gender-container py-2">
                         <div class="btn-group d-flex  btn-group-toggle" data-toggle="buttons">
                             <label class="mr-5 form-label align-middle pt-1">Generos</label>
@@ -93,7 +93,7 @@
                             </div>
                         </div>
                     </div>
-                    <hr style="border-top: 0.5px;">
+                    <hr>
                     <div class="specific-data py-2">
                         <div class="select-specific-data w-100 d-flex mb-3">
                             <label class=" form-label align-middle pt-1">Datos <br> Específicos</label>
@@ -106,11 +106,11 @@
                                     <span class="badge bg-secondary">Entre 4 años</span>
                                 </div>
                                 <div class="d-flex mt-2 ">
-                                    <button type="button" class="btn btn-outline-success mx-2" data-bs-toggle="modal" data-bs-target="#UsersModal">
+                                    <button type="button" class="btn btn-outline-success mx-2" data-toggle="modal" data-target="#UsersModal">
                                         <i  class="fas fa-plus-circle" aria-hidden="true"></i>
                                         Usuarios
                                     </button>
-                                    <button type="button" class="btn btn-outline-success mx-2" data-bs-toggle="modal" data-bs-target="#BusinessModal">
+                                    <button type="button" class="btn btn-outline-success mx-2" data-toggle="modal" data-target="#BusinessModal">
                                         <i _ngcontent-atc-c34="" class="fas fa-plus-circle" aria-hidden="true"></i>
                                         Empresas
                                     </button>
@@ -119,18 +119,18 @@
                         </div>
 
                     </div>
-                    <hr style="border-top: 0.5px;">
+                    <hr>
                     <div class="public-name py-2">
                         <div class="d-flex">
                             <label class=" form-label align-middle pt-1">Nombre del <br> Público</label>
                             <input class="form-control mx-2" list="datalistOptions" id="exampleDataList" placeholder="Escoger nombre del público">
-                            <button class="btn btn-success save-public-btn">Guardar público</button>
+                            <button class="btn btn-success save-public-btn">Guardar</button>
 
                         </div>
                     </div>
-                    <div class="btn-container text-end my-2">
+                    <div class="btn-container justify-content-lg-end d-flex text-end mb-3">
                         <a [routerLink]="['/Home/General']" class="btn btn-primary save-out mx-2 active" role="button" aria-pressed="true">Guardar y salir </a>
-                        <a [routerLink]="['/CreateCampaign/AdFormat']" class="btn btn-primary mx-4 continue active" role="button" aria-pressed="true">Siguiente</a>
+                        <a [routerLink]="['/CreateCampaign/AdFormat']" class="btn btn-primary  continue active" role="button" aria-pressed="true">Siguiente</a>
                     </div>
                 </div>
             </div>
@@ -149,7 +149,10 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="BusinessLabel">Datos específicos - Empresas</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+
             </div>
             <div class="modal-body">
                 <div class="list-group">
@@ -214,7 +217,10 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="UsersModalLabel">Datos específicos - Usuarios</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+
             </div>
             <div class="modal-body">
                 <ul class="list-group container">

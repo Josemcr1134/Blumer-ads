@@ -51,8 +51,8 @@ header,
     color: #4D4D4D;
 }
 
-.dropdown-item:focus,
-.dropdown-item:hover {
+a.dropdown-item:focus,
+a.dropdown-item:hover {
     color: white;
     text-decoration: none;
     background-color: #008A48;

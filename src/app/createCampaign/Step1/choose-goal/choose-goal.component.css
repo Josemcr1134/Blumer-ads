@@ -78,3 +78,10 @@ a.btn.continue {
     color: #6F6F6F;
     font-size: 13px;
 }
+
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show>.btn-secondary.dropdown-toggle {
+    background-color: #a5a8ac;
+    border-color: #a5a8ac;
+}

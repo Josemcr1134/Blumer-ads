@@ -101,13 +101,12 @@
                         ],
                         "styles": [
                             "src/styles.css",
-                            "src/assets/plugins/bootstrap/css/bootstrap.min.css",
+
                             "src/assets/plugins/toast/toastr.css",
                             "src/assets/css/styles.css"
                         ],
                         "scripts": [
-                            "src/assets/plugins/bootstrap/js/bootstrap.min.js",
-                            "src/assets/plugins/bootstrap/js/bootstrap.bundle.js",
+
                             "src/assets/plugins/toast/toastr.min.js"
                         ]
                     }
